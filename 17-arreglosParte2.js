@@ -60,6 +60,21 @@ var arregloFuncionAnonima = [
         console.log( persona.nombre + " " + persona.apellido );
 
     },
+    [   
+        1,
+        2,
+        3,
+        4,
+        5,
+    
+        [
+            "uno",
+            "dos",
+            "tres",
+            "cuatro"
+        ]
+    
+    ],
 
     false
 
@@ -70,6 +85,7 @@ console.log(arregloFuncionAnonima[0]);
 console.log(arregloFuncionAnonima[1].nombre + " " + arregloFuncionAnonima[1].apellido);
 arregloFuncionAnonima[2]();
 console.log(arregloFuncionAnonima[3]);
-
-
+arregloFuncionAnonima[2]( arregloFuncionAnonima[1] );
+console.log(" El número seleccionado es el: ",arregloFuncionAnonima[4][2]);
+console.log(" El número seleccionado es el: ",arregloFuncionAnonima[4][5][0]);
 
