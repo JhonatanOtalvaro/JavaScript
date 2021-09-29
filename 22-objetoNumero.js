@@ -12,3 +12,9 @@ console.log(c.toFixed(5));
 
 c = c.toString();
 console.log(c)
+
+//toPresicion
+
+var d = 12.3423434324;
+console.log(d);
+console.log(d.toPrecision(4));
