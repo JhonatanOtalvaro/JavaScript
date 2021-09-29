@@ -18,3 +18,16 @@ console.log(c)
 var d = 12.3423434324;
 console.log(d);
 console.log(d.toPrecision(4));
+
+//Cuantos números soporta la variable numérica: 308, después de 308 muestra en pantalla la propiedad infinity
+
+d = 10;
+d *= 10000000000000000000000;
+
+console.log(d);
+
+//ValueOF
+
+var e = new Number("20");
+console.log(b);
+console.log(b.valueOf());
